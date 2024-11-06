@@ -37,5 +37,4 @@ class Starship
     {
         return $this->status;
     }
-
 }
