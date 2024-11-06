@@ -19,7 +19,7 @@ class MainController extends AbstractController
             'captain' => 'Obi-Wan Kenobi',
             'status' => 'under construction',
         ];
-        
+
         return $this->render('main/homepage.html.twig', [
             'numberOfStarships' => $starshipCount,
             'myShip' => $myShip,
